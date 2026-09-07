@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(63, 63, 63);
+            padding: 3px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        article {
+            background-color: gray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(53, 53, 53);
+        }
+
+        main {
+            background-color: rgb(255, 6, 6);
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+    Divs semanticas:
+        header = cabeçalho
+        main = contuedo principal
+        footer = rodapé
+        section = seção
+        article = artigo
+        aside = conteudo relativo ao artigo ou outras partes
+        nav = menus ou ares importantes do site
+    -->
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportres Politicas Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse hic necessitatibus, asperiores in sequi, facilis quibusdam quaerat dolorem blanditiis enim quo magni sed quae sint eius! Id dolores consequatur esse?</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>

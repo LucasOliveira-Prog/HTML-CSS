@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        nav {
+            background-color: rgb(63, 63, 63);
+            padding: 3px;
+            box-shadow: -1px 3px 11px 2px rgba(0, 0, 0, 0.397);  
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            /*
+            shorthand border-radius:
+            1 - em cima na esquerda
+            2 - em cima na direita
+            3 - em baixo na direita
+            4 - em baixo na esquerda
+            */
+            border-radius: 10px 30px;
+            box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.24);
+        }
+
+        article {
+            background-color: gray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(53, 53, 53);
+        }
+
+        main {
+            background-color: rgb(255, 6, 6);
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.411);
+        }
+
+        div#bola:active {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+    </nav>
+</header>
+
+<main>
+    <section id="assuntos">
+        <p>Esportres Politicas Tecnologia</p>
+    </section>
+
+    <section id="noticias">
+        <article>
+            <h2>Noticia sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse hic necessitatibus, asperiores in sequi, facilis quibusdam quaerat dolorem blanditiis enim quo magni sed quae sint eius! Id dolores consequatur esse?</p>
+            <aside>
+                <p>Artigo escrito por Jose da Silva</p>
+            </aside>
+        </article>
+
+        <article>
+
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>Desenvolvido pelo CursoemVideo</p>
+</footer>
+
+<div id="bola">
+
+</div>
+
+</body>
+</html>
