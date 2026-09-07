@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo Fixo de Tela</title>
+    <style>
+        body {
+            /*
+            configs de attachment:
+            scroll = o fundo vai rolar junto com o conteudo (é o padrao)
+
+            fixed = a imagem fica fixada independente da rolagem, largura e etc
+            */
+            height: 100vh;
+            background-color: black;
+            background-image: url(imgs/wallpaper002.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            /*
+            Shorthand - background
+                1 - color
+                2 - imagem
+                3 - position
+                4 - repeat
+                5 - [size]
+                6 - attachment
+
+                background: black url(#) center no-repeat cover fixed;
+
+                obs:
+                    o background size esta com um problema então no shorthand ele não esta funcionando por enquanto então o background size devera ser feito de forma separada do shorthand!
+            */
+        }
+
+        main {
+            background-color: white;
+            max-width: 400px;
+            padding: 10px;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nulla illum laboriosam deleniti distinctio ut ratione consequuntur placeat sit, dolores consectetur veniam repellat quibusdam fugiat dolor ipsam praesentium minima obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veniam vero similique, aliquam harum, maxime pariatur nam asperiores iusto architecto nostrum eveniet! Eaque magni asperiores temporibus modi reprehenderit sapiente tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea dolores hic deserunt molestiae veniam! Vitae explicabo accusantium reiciendis totam nam. Accusamus vitae, odit ab quis deserunt quia architecto facilis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nulla illum laboriosam deleniti distinctio ut ratione consequuntur placeat sit, dolores consectetur veniam repellat quibusdam fugiat dolor ipsam praesentium minima obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veniam vero similique, aliquam harum, maxime pariatur nam asperiores iusto architecto nostrum eveniet! Eaque magni asperiores temporibus modi reprehenderit sapiente tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea dolores hic deserunt molestiae veniam! Vitae explicabo accusantium reiciendis totam nam. Accusamus vitae, odit ab quis deserunt quia architecto facilis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nulla illum laboriosam deleniti distinctio ut ratione consequuntur placeat sit, dolores consectetur veniam repellat quibusdam fugiat dolor ipsam praesentium minima obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veniam vero similique, aliquam harum, maxime pariatur nam asperiores iusto architecto nostrum eveniet! Eaque magni asperiores temporibus modi reprehenderit sapiente tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea dolores hic deserunt molestiae veniam! Vitae explicabo accusantium reiciendis totam nam. Accusamus vitae, odit ab quis deserunt quia architecto facilis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nulla illum laboriosam deleniti distinctio ut ratione consequuntur placeat sit, dolores consectetur veniam repellat quibusdam fugiat dolor ipsam praesentium minima obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veniam vero similique, aliquam harum, maxime pariatur nam asperiores iusto architecto nostrum eveniet! Eaque magni asperiores temporibus modi reprehenderit sapiente tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea dolores hic deserunt molestiae veniam! Vitae explicabo accusantium reiciendis totam nam. Accusamus vitae, odit ab quis deserunt quia architecto facilis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nulla illum laboriosam deleniti distinctio ut ratione consequuntur placeat sit, dolores consectetur veniam repellat quibusdam fugiat dolor ipsam praesentium minima obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veniam vero similique, aliquam harum, maxime pariatur nam asperiores iusto architecto nostrum eveniet! Eaque magni asperiores temporibus modi reprehenderit sapiente tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ea dolores hic deserunt molestiae veniam! Vitae explicabo accusantium reiciendis totam nam. Accusamus vitae, odit ab quis deserunt quia architecto facilis.</p>
+    </main>
+</body>
+</html>
