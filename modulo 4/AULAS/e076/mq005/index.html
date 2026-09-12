@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
 
+    <!-- ICON -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+    <!-- MOBILE FIRST -->
     <link rel="stylesheet" href="estilos/style.css">
+
+    <!-- MEDIA QUERY -->
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamnho()">
     <header>
         <h1>Meu Site</h1>
 
@@ -38,16 +43,23 @@
     </main>
 
     <script>
-        function clickMenu() {
-            if (items.style.display == 'block') {
-                items.style.display = 'none'
-            }
 
-            else {
+        function mudouTamnho() {
+            if (window.innerWidth >= 768) {
                 items.style.display = 'block'
+            } else {
+                items.style.display = 'none'
             }
         }
 
+        function clickMenu() {
+            if (items.style.display == 'block') {
+                items.style.display = 'none';
+            }
+            else {
+                items.style.display = 'block';
+            }
+        }
     </script>
 </body>
 </html>
